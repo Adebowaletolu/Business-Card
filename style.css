@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(35, 37, 44, 1);
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    font: inter;
+}
+
+.Container1 {
+    margin: 0 auto;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 317px;
+    background: rgba(26, 27, 33, 1);
+}
+
+.wrapper img {
+    margin-top: 25px;
+}
+
+/* .content {
+    width: 317px;
+    background-color: black;
+    height: 399px;
+    top: 361px;
+    left: 116px;
+
+} */
+
+.Laura-text {
+    text-align: center;
+    margin-left: -20px;
+}
+
+.Laura-text h1 {
+    color: #FFFFFF;
+    font: inter;
+    font-weight: 700px;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 15px;
+    font-style: normal;
+}
+
+.Laura-text h6 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.Laura-text a:hover {
+    text-decoration: underline;
+    transition: 0.5s ease;
+    color: aqua;
+}
+
+.Laura-text h4 {
+    font: inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(243, 191, 153, 1);
+    margin-top: 3px;
+}
+
+.Laura-text h6 {
+    Font: Inter;
+    font-weight: 400;
+    Size: 11px;
+    Line-height: 16px;
+    color: rgba(245, 245, 245, 1);
+    margin-top: 5px;
+}
+
+.Email {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 7px;
+    margin-bottom: 32px;
+    width: 67%;
+    margin-left: 44px;
+}
+
+.Email:hover {
+    color: rgba(123, 122, 161, 0.945);
+}
+
+.Email img {
+    width: 13px;
+    height: 9px;
+    /* top: 3px; */
+    left: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.Email h3 {
+    margin-left: 8px;
+    font: inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.about {
+    margin-left: 40px;
+    width: 70%;
+}
+
+.about h2 {
+    font: inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(245, 245, 245, 1);
+    margin-bottom: 5px;
+}
+
+.about h2:hover {
+    text-decoration: underline;
+}
+
+.about p {
+    color: rgba(220, 220, 220, 1);
+    font-family: 'inter';
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 11px;
+}
+
+.interest {
+    margin-left: 40px;
+    width: 70%;
+}
+
+.interest h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(245, 245, 245, 1);
+    margin-top: 17px;
+}
+
+.interest h2:hover {
+    text-decoration: underline;
+}
+
+.interest p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    color: rgba(220, 220, 220, 1);
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 17px; */
+    width: 317px;
+    margin-top: 25px;
+    background: rgba(22, 22, 25, 1);
+    margin-bottom: 44px;
+}
+
+.footer a:hover {
+    padding: 2px;
+}
+
+.instagram {
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
+
+.Facebook {
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
+
+.GitHub {
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
+
+.Linkedin {
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
+
+.Twitter {
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
